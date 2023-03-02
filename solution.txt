@@ -1,0 +1,9 @@
+ What is the difference between git stash apply and git stash pop?
+Ans:git stash'[D[D[D[D[D[D[D[D[D[D[D[D[D[C[C[CGenerally stash's meaning is "store something in a hidden place".Git is also the same for stash;Git temporarily saves your data without committing.
+
+git stash apply: you can re-apply the changes that you just stashed by using the git stash command.
+syntax:git stash apply[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D
+[Agit stash pop:allows user to reaaply[D[D[D[D[D[D[C[-apply the previous commits by using git stash pop command.The popping option removes the changes from stash and applies them to your working file.
+syntax:git stash pop
+
+The main difference between both of these commands is stash popn command that[D[D[D[D[D[D[D[D[D[D[D[D[[C[C[C[C[C[C[C[C[C[C[C[C[C[C deletes the stash after ot is applied.[D[D[D[D[D[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[i
